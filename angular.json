@@ -30,9 +30,9 @@
               "src/favicon.ico",
               "src/assets",
               {
-                "glob": "*",
-                "input": "node_modules/font-awesome/fonts",
-                "output": "assets/fonts/"
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
               }
             ],
             "styles": [
